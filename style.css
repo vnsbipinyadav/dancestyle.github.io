@@ -1,0 +1,425 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.bg_image {
+    position: relative;
+}
+
+.bg_image img {
+    /* background: url(./image/background.jpg); */
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #303030;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff !important;
+}
+
+.hdr_title {
+    color: #ffffff;
+    padding: 0px 40px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translate(-40, -40%);
+}
+
+.hdr_title h1 {
+    font-size: 125px;
+    font-weight: 400;
+}
+
+.hdr_title p {
+    width: 600px;
+    /* height: 100px; */
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: "Montserrat";
+}
+
+.hdr_title button {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #e8631c;
+    margin-top: 15px;
+}
+
+.hdr_title button a {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* <!-- Dance Tour section --> */
+
+.tour_bg {
+    background-color: #e7631c;
+}
+
+.Tourtext_style h2 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Tourtext_style p {
+    font-size: 20px;
+    color: #ffffff;
+    /* font-weight: 400; */
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 50px;
+}
+
+.card {
+    margin-top: -20px;
+    border-radius: none !important;
+    border: none;
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+/* pricing section */
+
+.pricing_bg {
+    background-color: #303030;
+}
+
+.pricingtext_style h2 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pricingtext_style p {
+    font-size: 20px;
+    color: #ffffff;
+    /* font-weight: 400; */
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 50px;
+}
+
+.pricing_card {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: #e8631c;
+}
+
+.pricing_card a {
+    color: #ffffff;
+    background-color: #303030;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.pricing_card a:hover {
+    background-color: #ffffff;
+    color: #303030
+}
+
+
+/* dance style section */
+
+.dancestyle_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dancestyle_text {
+    display: flex;
+    background-color: #e8631c;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dancestyle_text h2 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 50px;
+}
+
+.dancestyle_text p {
+    font-size: 20px;
+    color: #ffffff;
+    /* font-weight: 400; */
+    font-family: "Montserrat";
+    padding: 20px 50px;
+}
+
+.dancestyle_text a {
+    border-radius: 4px;
+    background-color: #303030;
+    padding: 10px 50px;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.dancestyle_text a:hover {
+    color: #303030;
+    background-color: #f1f1f1;
+}
+
+
+/* our statisctics section */
+
+.statistic_bg {
+    background-color: #303030;
+}
+
+.statistic_bg h2 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 50px;
+}
+
+.statistic_bg p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.herbert_section {
+    position: relative;
+    background-color: #e8631c;
+}
+
+.herbert_img img {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    /* padding: 0;
+    margin: 0; */
+    /* filter: opacity(90%); */
+}
+
+.herbert_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.herbert_text p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.herbert_text h3 {
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.subscribr_backg {
+    background-color: #e8631c;
+    text-align: center;
+}
+
+.substext_style h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.substext_style p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 20px 50px;
+}
+
+.substext_style input {
+    width: 25%;
+    background-color: #ffffff;
+    border: none;
+    padding: 4px 10px;
+    margin-bottom: 50px;
+}
+
+.substext_style span {
+    background-color: #303030;
+    color: #f1f1f1;
+    padding: 4px 20px;
+    text-transform: uppercase;
+}
+
+input,
+input:focus,
+input:active,
+input:active:focus {
+    border: none;
+    outline: none;
+}
+
+
+/* footer section */
+
+.footer_backgrnd {
+    background-color: #303030;
+    padding: 50px 0px;
+}
+
+.left_footer h4 {
+    padding-left: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* font-weight: 400; */
+}
+
+.left_footer p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.social_icon {
+    padding-left: 40px;
+    font-size: 33px;
+    color: #000000;
+}
+
+.fa {
+    background-color: #f1f1f1;
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+
+.right_footer {
+    display: flex;
+    padding-left: 30px;
+}
+
+.right_footer div {
+    flex: 33.33%;
+    justify-content: space-around;
+}
+
+.right_footer h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.right_footer ul {
+    padding-left: 0px;
+}
+
+.right_footer li {
+    list-style-type: none;
+    text-align: start;
+}
+
+.right_footer a {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+/* media query */
+
+@media (max-width: 720px) {
+    .hdr_title p {
+        max-width: 70%;
+    }
+    .right_footer {
+        margin-top: 50px;
+    }
+    .hdr_title h1 {
+        font-size: 100px;
+    }
+}
